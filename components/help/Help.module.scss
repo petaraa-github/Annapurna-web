@@ -1,0 +1,28 @@
+@import "../../styles/variables.scss";
+
+.Title {
+  text-align: center;
+}
+
+.ProcessImages {
+  display: flex;
+  flex-direction: column;
+}
+.ProcessRow1,
+.ProcessRow2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.Process {
+  width: 25%;
+  // background-color: aqua;
+  height: 500px;
+  text-align: center;
+}
+.caption {
+  width: 100%;
+  font-size: 24px;
+  font-family: "Overpass", sans-serif;
+  color: $secondary-color;
+}

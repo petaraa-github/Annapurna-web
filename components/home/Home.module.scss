@@ -1,0 +1,36 @@
+@import "../../styles/variables.scss";
+
+.HomeBg {
+  background-image: url("../imgs/Background.png");
+  background-size: contain;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.homeCol {
+  width: 30%;
+  //   background-color: aqua;
+}
+.btnSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+.AppLink {
+  border-radius: 20px;
+  border: none;
+  background-color: $secondary-color;
+  color: #ffff;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  font-weight: 900;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
