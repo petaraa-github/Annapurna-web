@@ -1,0 +1,62 @@
+@import "../../styles/variables.scss";
+.AboutUs{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.Title3{
+   text-align: center;
+}
+.AboutUsSection{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 150px 0px 100px 0px;
+
+}
+.SubImage{
+    width: 50%;
+    text-align: center;
+}
+.rightContent{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: $font-color;
+    font-weight: 700;
+}
+.RightSection{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+.SubTitle1{
+    margin: auto;
+}
+.LeftSection{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+.LeftContent{
+    margin: auto;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: $font-color;
+    font-weight: 700;
+}
+.Comments{
+    margin: 150px 0px;
+}
+.SubTitle{
+    width: 60%;
+    margin: auto;
+    font-family: 'Orelega One', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+
+}
