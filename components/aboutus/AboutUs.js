@@ -42,7 +42,7 @@ export default function AboutUs() {
       <div className={styles.Comments} >
         <div className={styles.SubTitle}>Hear why our community loves Petaraa Annapurna   </div>
       </div>
-      <div>
+      <div className={styles.public_reviews}>
         {
           Review1.map((data,index)=>(
            <ReviewData data={data} key={index}/> 
