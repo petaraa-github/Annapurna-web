@@ -11,12 +11,12 @@ export default function HomePage() {
   return (
     <>
       <div className={styles.HomeBg}>
-        <div className={styles.homeCol}>
+        <div className={styles.homeCol1}>
           <Image src={FoodImg} alt="Image1" width={300} />
         </div>
-        <div className={styles.homeCol}>
+        <div className={styles.homeCol2}>
           <div>
-            <Image src={Tagline} alt="Image2" width={400} />
+            <Image src={Tagline} alt="Image2" width={500} />
           </div>
           <div className={styles.btnSection}>
             <button className={styles.AppLink}>
@@ -29,7 +29,7 @@ export default function HomePage() {
             </button>
           </div>
         </div>
-        <div className={styles.homeCol}>
+        <div className={styles.homeCol3}>
           <div>
             <Image src={BannerImg} alt="BannerImg" width={350} />
           </div>
