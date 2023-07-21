@@ -2,8 +2,11 @@
 
 .main_footer{
     width: 100%;
-    height: 250px;
-    background-color: $third-color;
+    // height: 250px;
+    background-color: #75B79E;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
     
 }
 .row{
@@ -18,18 +21,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: absolute;
-    left:30%;
-    right: 30%;
+    width: 80%;
+    margin: auto;
+ 
     border-top: 1px solid white;
-    // padding-top: 12px;
-    // padding-bottom: 12px;
-  
-        
-      
+    
 } 
 .footer_list{
-    padding-left: 0px;
+   
     list-style: none;
 }
 .li{
@@ -38,21 +37,23 @@
 .footer_title{
 margin-top: 30px;
 margin-bottom: 20px;
-font-size: 24px;
+font-size: 26px;
 line-height: 24px;
-font-weight: 900;
+font-weight: 700;
+font-family: 'Orelega One', cursive;
 }
 
 .btn_link{
     border:none;
     background-color: $third-color;
-    margin: 0px 50px;
+    margin: 15px 50px;
 }
 
 .a{
     text-decoration: none;
     font-size: 20px;
     color: white;
+    font-family: 'Overpass', sans-serif;
 }
 
 .a:hover{
@@ -75,7 +76,23 @@ font-weight: 900;
 }
 .app_store {
     display: flex;
-    width: 100%;
+    width: 80%;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    h2 {
+      color: white;
+    }
+  }
+  .play_store {
+    text-align:center ;
+    justify-content: center;
+    display: flex;
+    width: 80%;  
     text-decoration: none;
     align-items: center;
     border-radius: 10px;
@@ -85,15 +102,7 @@ font-weight: 900;
       color: white;
     }
   }
-  .play_store {
-    display: flex;
-    width: 100%;  
-    text-decoration: none;
-    align-items: center;
-    border-radius: 10px;
-    background-color: black;
-    margin: 10px;
-    h2 {
-      color: white;
-    }
+  .col{
+    width: 20%;
+    text-align: center;
   }

@@ -6,8 +6,8 @@ import SubImage1 from "../imgs/SubImage1.png";
 import SubImage2 from "../imgs/SubImage2.png";
 import SubTitle1 from "../imgs/SubTitle1.png";
 import SubTitle2 from "../imgs/SubTitle2.png"
-import { Review1 } from "./ReviewData1";
-import ReviewData from "@/components/aboutus/ReviewData";
+import {ReviewData} from "./ReviewData";
+import Review from "./Review"
 
 export default function AboutUs() {
   return(
@@ -44,8 +44,8 @@ export default function AboutUs() {
       </div>
       <div className={styles.public_reviews}>
         {
-          Review1.map((data,index)=>(
-           <ReviewData data={data} key={index}/> 
+          ReviewData.map((data,index)=>(
+           <Review data={data} key={index}/> 
           ))
         }
       </div>
