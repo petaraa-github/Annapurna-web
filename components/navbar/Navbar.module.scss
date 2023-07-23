@@ -28,3 +28,27 @@
   font-weight: 900;
   font-family: "Lora", serif;
 }
+@media only screen and (max-width: 480px){
+  .Navbar{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .NavbarLogo{
+    margin-top: 10px;
+  }
+  .Logo{
+    width: 90%;
+    height: 90px;
+  }
+  .Navbar_list{
+    width: 90%;
+  }
+  // .list{
+  //   display: none;
+  // }
+  .nav_links{
+    font-size: 14px;
+  }
+}

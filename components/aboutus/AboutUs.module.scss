@@ -1,12 +1,12 @@
 @import "../../styles/variables.scss";
 .AboutUs{
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 100px;
 }
 .Title3{
    text-align: center;
 }
-.AboutUsSection{
+.AboutUsSection, .AboutUsSectionR{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -65,3 +65,55 @@
     flex-direction: row;
     justify-content:space-around
 } 
+.Stitle3, .Stitle4, .Stitle5{
+    display: none;
+}
+
+@media only screen and (max-width: 480px){
+    .AboutUsSection{
+        flex-direction: column;
+    }
+    .AboutUsSectionR{
+        flex-direction: column-reverse;
+    }
+    .public_reviews{
+        flex-direction: column;
+    }
+    .Btitle3, .Btitle4, .Btitle5{
+        display: none;
+    }
+    .RightSection, .LeftSection{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .rightContent, .LeftContent{
+        width: 90%;
+        margin: auto;
+        font-size: 18px;
+    }
+        .Stitle3{
+            display: block;
+            height: 100px;
+            width: 90%;
+            margin: auto;
+        }
+        .Stitle4,
+        .Stitle5 {
+            display: block;
+            margin: auto;
+        }
+        .SubImage{
+            width: 100%;
+        }
+    .SubImage2, .SubImage1{
+        width: 100%;
+    }
+    .Comments{
+        width: 100%;
+    }
+    .SubTitle{
+        width: 90%;
+        margin: auto;
+        font-size: 30px;
+    }
+}

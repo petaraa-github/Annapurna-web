@@ -7,7 +7,7 @@ import Instagram from "../imgs/insta.png";
 import Facebook from "../imgs/facebook.png";
 import Playstore from "../imgs/playstoreW.png";
 import Appstore from "../imgs/appstoreW.png";
-import Logo from "../imgs/petaraalogo.png";
+import Logo from "../imgs/Logo.png";
 export default function Footer() {
   return (
     <>
@@ -19,9 +19,8 @@ export default function Footer() {
               <Image
                 className={styles.petaraa}
                 src={Logo}
-                alt="petaraa"
-                width={200}
-                height={200}
+                alt="petaraa annapurna"
+                height={180}
               />
             </Link>
           </div>

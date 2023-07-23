@@ -11,8 +11,7 @@ export default function Navbar() {
             src={Logo}
             alt="Logo"
             className={styles.Logo}
-            height={120}
-            width={250}
+            height={150}
           />
         </div>
         <div className={styles.Navbar_list}>

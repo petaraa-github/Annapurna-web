@@ -1,5 +1,8 @@
 @import "../../styles/variables.scss";
 
+.Help{
+  margin-top: 100px;
+}
 .Title {
   text-align: center;
 }
@@ -12,9 +15,10 @@
 .ProcessRow2 {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 95%;
+  margin: auto;
 }
-.Process {
+.Process, .ProcessG {
   width: 25%;
   // background-color: aqua;
   height: 500px;
@@ -25,4 +29,37 @@
   font-size: 24px;
   font-family: "Overpass", sans-serif;
   color: $secondary-color;
+}
+.Stitle1{
+  display: none;
+}
+@media only screen and (max-width: 480px){
+  .Help{
+    margin-top: 100px;
+  }
+  .Title{
+    text-align: -webkit-center;
+  }
+  .Btitle1{
+    display: none;
+  }
+  .Stitle1{
+    display: block;
+  }
+  .ProcessRow1{
+    flex-direction: column;
+  }
+  .ProcessRow2{
+    flex-direction: column;
+  }
+  .ProcessG{
+    display: none;
+  }
+  .Process{
+    width: 100%;
+  }
+  .caption{
+    width: 80%;
+    margin: auto;
+  }
 }
