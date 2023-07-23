@@ -25,6 +25,21 @@
 .Stitle2{
     display: none;
 }
+@media screen and (max-width: 991px){
+    .OurMission{
+        flex-direction: column;
+    }
+    .Mission{
+        width: 100%;
+    }
+    .MissionImg{
+        width: 100%;
+    }
+    .OurMission{
+        width: 90%;
+        margin: auto;
+    }
+}
 @media only screen and (max-width: 480px){
     .Mission{
         width: 100%;

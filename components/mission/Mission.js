@@ -8,7 +8,7 @@ import OurMission from "../imgs/OurMission.png";
 export default function Mission() {
   return (
     <>
-      <div className={styles.OurMission}>
+      <div id="Mission" className={styles.OurMission}>
         <div className={styles.Mission}>
           <Image className={styles.Btitle2} src={Title2} alt="Title 2" width={300} />
           <Image className={styles.Stitle2} src={Stitle2} alt="Title 2" width={300} />

@@ -46,10 +46,10 @@
 .footer_title{
 margin-top: 30px;
 margin-bottom: 20px;
-font-size: 26px;
+font-size: 28px;
 line-height: 24px;
-font-weight: 700;
-font-family: 'Orelega One', cursive;
+font-weight: 800;
+font-family: 'Lora', serif;
 }
 
 .btn_link{
@@ -115,7 +115,29 @@ font-family: 'Orelega One', cursive;
     width: 20%;
     text-align: center;
   }
+@media screen and (max-width: 991px){
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .col{
+        width: 100%;
+    }
+    .footer_bottom{
+        flex-direction: column;
+    }
+     .btn_link{
+        margin-top: 1px;
+    }
 
+    .play_store, .app_store{
+        width: 30%;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+}
   @media only screen and (max-width: 480px){
     .row{
         flex-direction: column;

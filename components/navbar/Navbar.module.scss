@@ -6,6 +6,7 @@
   justify-content: space-around;
 }
 .NavbarLogo {
+  margin-top: 10px;
   width: 30%;
 }
 .Navbar_list {
@@ -22,11 +23,25 @@
   //   justify-content: space-evenly;
 }
 .nav_links {
-  width: 100%;
+  width: 80%;
+  text-align: center;
   align-items: center;
   font-size: 24px;
   font-weight: 900;
   font-family: "Lora", serif;
+  
+    
+}
+.a{
+  background-image: linear-gradient(to right, $font-color, $font-color 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
 }
 @media only screen and (max-width: 480px){
   .Navbar{

@@ -15,7 +15,7 @@ import Review from "./Review";
 export default function AboutUs() {
   return (
     <>
-      <div className={styles.AboutUs}>
+      <div id="AboutUs" className={styles.AboutUs}>
         <div className={styles.Title3}>
           <Image className={styles.Btitle3} src={Title3} alt="Title 3" />
           <Image className={styles.Stitle3} src={Stitle3} alt="Title 3" />

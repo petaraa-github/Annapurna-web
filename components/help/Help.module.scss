@@ -1,6 +1,6 @@
 @import "../../styles/variables.scss";
 
-.Help{
+.Help {
   margin-top: 100px;
 }
 .Title {
@@ -18,7 +18,8 @@
   width: 95%;
   margin: auto;
 }
-.Process, .ProcessG {
+.Process,
+.ProcessG {
   width: 25%;
   // background-color: aqua;
   height: 500px;
@@ -30,35 +31,47 @@
   font-family: "Overpass", sans-serif;
   color: $secondary-color;
 }
-.Stitle1{
+.Stitle1 {
   display: none;
 }
-@media only screen and (max-width: 480px){
-  .Help{
-    margin-top: 100px;
-  }
-  .Title{
-    text-align: -webkit-center;
-  }
-  .Btitle1{
-    display: none;
-  }
-  .Stitle1{
-    display: block;
-  }
-  .ProcessRow1{
-    flex-direction: column;
-  }
-  .ProcessRow2{
-    flex-direction: column;
-  }
-  .ProcessG{
-    display: none;
-  }
-  .Process{
+@media screen and (max-width: 991px) {
+  .Process {
     width: 100%;
   }
-  .caption{
+  .ProcessG {
+    display: none;
+  }
+  .ProcessRow1,
+  .ProcessRow2 {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Help {
+    margin-top: 100px;
+  }
+  .Title {
+    text-align: -webkit-center;
+  }
+  .Btitle1 {
+    display: none;
+  }
+  .Stitle1 {
+    display: block;
+  }
+  .ProcessRow1 {
+    flex-direction: column;
+  }
+  .ProcessRow2 {
+    flex-direction: column;
+  }
+  .ProcessG {
+    display: none;
+  }
+  .Process {
+    width: 100%;
+  }
+  .caption {
     width: 80%;
     margin: auto;
   }

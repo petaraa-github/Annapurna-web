@@ -54,9 +54,9 @@
 .SubTitle{
     width: 60%;
     margin: auto;
-    font-family: 'Orelega One', cursive;
-    font-size: 50px;
-    font-weight: 700;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    font-weight: 800;
     text-align: center;
 
 }
@@ -68,7 +68,25 @@
 .Stitle3, .Stitle4, .Stitle5{
     display: none;
 }
-
+@media screen and (max-width: 991px){
+    .AboutUsSection{
+        flex-direction: column;
+        align-items: center;
+    }
+    .AboutUsSectionR{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .RightSection{
+        width: 100%;
+    }
+    .LeftSection{
+        width: 100%;
+    }
+        .public_reviews{
+            flex-direction: column;
+        }
+}
 @media only screen and (max-width: 480px){
     .AboutUsSection{
         flex-direction: column;

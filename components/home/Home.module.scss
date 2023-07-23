@@ -44,7 +44,32 @@ width: 45%;
   display: none;
 }
 @media screen and (max-width: 991px) {
-
+  .homeCol1{
+width: 100%;
+display: none;
+  }
+  .FoodImg{
+    width: 100%;
+    height: 400px;
+  }
+  .homeCol2{
+    width: 60%;
+    margin-left: 10px;
+  }
+  .homeCol3{
+    width: 35%;
+    margin-right: 10px;
+  }
+  .Banner{
+width: 100%;
+  }
+  .BannerImg{
+    width: 100%;
+    height: 400px;
+  }
+  .AppLink{
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 480px){
