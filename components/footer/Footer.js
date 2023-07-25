@@ -8,6 +8,7 @@ import Facebook from "../imgs/facebook.png";
 import Playstore from "../imgs/playstoreW.png";
 import Appstore from "../imgs/appstoreW.png";
 import Logo from "../imgs/Logo.png";
+import privacypolicy from "@/pages/privacy_policy";
 export default function Footer() {
   return (
     <>
@@ -15,12 +16,13 @@ export default function Footer() {
         <div className={styles.row}>
           {/* column 1 */}
           <div className={styles.col}>
-            <Link className={styles.logo} href="/" >
+            <Link className={styles.logo} href="/"  >
               <Image
                 className={styles.petaraa}
                 src={Logo}
                 alt="petaraa annapurna"
-                height={180}
+                height={80}
+                width={400}
               />
             </Link>
           </div>
@@ -94,7 +96,7 @@ export default function Footer() {
         {/* <hr></hr> */}
         <div className={styles.footer_bottom}>
           <button className={styles.btn_link}>
-            <Link href="/Privacy_Policy" className={styles.a}>
+            <Link href="/privacy_policy" className={styles.a}>
               Privacy Policy
             </Link>
           </button>

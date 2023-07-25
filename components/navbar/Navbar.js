@@ -8,7 +8,7 @@ export default function Navbar() {
     <>
       <div className={styles.Navbar}>
         <div className={styles.NavbarLogo}>
-          <Image src={Logo} alt="Logo" className={styles.Logo} height={150} />
+          <Image src={Logo} alt="Logo" className={styles.Logo} height={90} width={400}  />
         </div>
         <div className={styles.Navbar_list}>
           <ul className={styles.list}>

@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <>
       <div style={{ margin: "0px", padding: "0px" }}>
-        <Navbar />
+       
         <HomePage />
         <Help />
         <Mission />
         <AboutUs />
-        <Footer/>
+        
       </div>
     </>
   );
