@@ -18,7 +18,7 @@ export default function HomePage() {
         <div className={styles.homeCol2}>
           <div className={styles.Tagline}>
             <Image className={styles.BTagline} src={Tagline} alt="Image2" width={500} />
-             <Image className={styles.STagline} src={Stagline} alt="Image2" width={300} />
+            <Image className={styles.STagline} src={Stagline} alt="Image2" width={300} />
           </div>
           <div className={styles.btnSection}>
             <button className={styles.AppLink}>

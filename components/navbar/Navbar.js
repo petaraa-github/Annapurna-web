@@ -32,7 +32,7 @@ export default function Navbar() {
                 scroll={true}
                 offset={10}
                 className={styles.a}
-                href="/#AboutUs"
+                href="/about_us"
               >
                 About Us
               </Link>
