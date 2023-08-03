@@ -1,9 +1,10 @@
 import React from 'react'
-import AboutUs from '@/components/aboutus/AboutUs'
+import AboutUsPage from '@/components/abtus/AboutUsPage'
 export default function about_us() {
   return (
     <>
-    <AboutUs />
+    <AboutUsPage />
+    
     </>
   )
 }

@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&family=Overpass:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&family=Orelega+One&family=Overpass:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Life+Savers&family=Poppins&display=swap");
+.main_footer {
+  width: 100%;
+  background-color: #e9fef5;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  border-top: 1px solid black;
+}
+
+.col {
+  margin-top: 25px;
+  align-self: center;
+}
+
+.footer_list {
+  text-align: center;
+  list-style: none;
+}
+
+.li {
+  font-family: "Overpass", sans-serif;
+  font-size: 18px;
+}
+
+.footer_title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  line-height: 24px;
+  font-weight: 800;
+  font-family: "Lora", serif;
+}
+
+.btn_link {
+  border: none;
+  background-color: #e9fef5;
+  margin: 15px 50px;
+}
+
+.a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #2F5547;
+  font-family: "Overpass", sans-serif;
+}
+
+.a:hover {
+  color: #75b79e;
+}
+
+.social_media {
+  justify-content: center;
+}
+
+.media {
+  margin: 10px;
+}
+
+.download_btn {
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.app_store {
+  display: flex;
+  width: 80%;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+}
+.app_store h2 {
+  color: white;
+}
+
+.play_store {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 80%;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 10px;
+  background-color: black;
+  margin: 10px;
+}
+.play_store h2 {
+  color: white;
+}
+
+.col {
+  width: 20%;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+  .col {
+    width: 100%;
+  }
+  .footer_bottom {
+    flex-direction: column;
+  }
+  .btn_link {
+    margin-top: 1px;
+  }
+  .play_store, .app_store {
+    width: 30%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .row {
+    flex-direction: column;
+  }
+  .footer_bottom {
+    flex-direction: column;
+  }
+  .col {
+    text-align: center;
+    width: 100%;
+  }
+  .play_store, .app_store {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .btn_link {
+    margin: 5px 0px;
+  }
+}/*# sourceMappingURL=Footer.module.css.map */

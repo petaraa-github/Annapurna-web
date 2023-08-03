@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&family=Overpass:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&family=Orelega+One&family=Overpass:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Life+Savers&family=Poppins&display=swap");
+.HomeBg {
+  background-image: url("../imgs/Background.png");
+  background-size: contain;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e9fef5;
+}
+
+.homeCol1, .homeCol3 {
+  width: 25%;
+}
+
+.homeCol2 {
+  width: 40%;
+  margin-top: 100px;
+}
+
+.btnSection {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.AppLink {
+  border-radius: 20px;
+  border: none;
+  background-color: #6a8caf;
+  color: white;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  font-weight: 800;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 45%;
+}
+
+.STagline {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .homeCol1 {
+    width: 100%;
+    display: none;
+  }
+  .FoodImg {
+    width: 100%;
+    height: 400px;
+  }
+  .homeCol2 {
+    width: 60%;
+    margin-left: 10px;
+  }
+  .homeCol3 {
+    width: 100%;
+    margin-right: 10px;
+  }
+  .Banner {
+    width: 100%;
+  }
+  .BannerImg {
+    width: 100%;
+    height: 400px;
+  }
+  .AppLink {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .BTagline {
+    display: none;
+  }
+  .STagline {
+    display: block;
+  }
+  .HomeBg {
+    flex-direction: column-reverse;
+  }
+  .HomeBg .homeCol1 {
+    display: none;
+  }
+  .btnSection {
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+  }
+  .homeCol2 {
+    width: 80%;
+    margin: auto;
+  }
+  .Tagline {
+    margin-top: 10px;
+  }
+  .AppLink {
+    width: 80%;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .appIcon {
+    width: 100%;
+    width: 20%;
+    height: 50px;
+  }
+  .Banner {
+    width: 100%;
+  }
+  .BannerImg {
+    height: 350px;
+  }
+}/*# sourceMappingURL=Home.module.css.map */

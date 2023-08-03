@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&family=Overpass:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&family=Orelega+One&family=Overpass:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Life+Savers&family=Poppins&display=swap");
+.OurMission {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.Mission, .MissionImg {
+  width: 50%;
+  text-align: center;
+  align-items: center;
+}
+
+.MissionSection {
+  margin: auto;
+  width: 70%;
+  font-size: 26px;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  color: #6a8caf;
+}
+
+.MissionContent {
+  margin: 30px 0px;
+}
+
+.Stitle2 {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .OurMission {
+    flex-direction: column;
+  }
+  .Mission {
+    width: 100%;
+  }
+  .MissionImg {
+    width: 100%;
+  }
+  .OurMission {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Mission {
+    width: 100%;
+    text-align: center;
+  }
+  .OurMission {
+    flex-direction: column;
+  }
+  .MissionSection {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .Btitle2 {
+    display: none;
+  }
+  .Stitle2 {
+    display: block;
+    margin: auto;
+  }
+  .MissionImg {
+    width: 100%;
+  }
+  .OurMission {
+    width: 100%;
+    margin-top: 5px;
+  }
+}/*# sourceMappingURL=Mission.module.css.map */

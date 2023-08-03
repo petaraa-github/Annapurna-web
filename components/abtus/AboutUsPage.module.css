@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&family=Overpass:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&family=Lora:wght@500&family=Orelega+One&family=Overpass:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Life+Savers&family=Poppins&display=swap");
+.Container1 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftContainer {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightContainer {
+  width: 20%;
+}
+
+.ImgContainer {
+  width: 25%;
+}
+
+.textContainer {
+  width: 70%;
+}
+
+.textImg {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Life Savers", cursive;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 0%;
+}
+
+.getintouch {
+  width: 30%;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  background-color: #6a8caf;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family: "Lora", serif;
+  font-weight: 900;
+  color: #fff;
+}
+
+.touchdetail {
+  font-size: 24px;
+  font-family: "Lora", serif;
+  font-weight: 500;
+  width: 80%;
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.conclusion {
+  margin-top: 100px;
+  font-size: 24px;
+  font-family: "Lora", serif;
+  font-weight: 500;
+}/*# sourceMappingURL=AboutUsPage.module.css.map */
