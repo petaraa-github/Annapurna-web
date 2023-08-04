@@ -95,6 +95,7 @@ margin: 10% 0%;
     }
     .ContainerL{
         flex-direction: column;
+        align-items: center;
     }
     .rightContainer{
         width: 100%;
@@ -102,6 +103,7 @@ margin: 10% 0%;
     }
     .leftContainer{
         width: 90%;
+        text-align: center;
     }
     .AbtUstTitle{
         width: 100%;
@@ -111,14 +113,29 @@ margin: 10% 0%;
     // }
     .textContainer{
         width: 90%;
+        text-align: center;
+    }
+    .abtusInfo{
+        text-align: center;
     }
     .ImgContainer{
         width: 90%;
+        text-align: center;
     }
     .getintouch{
         width: 80%;
         color: #6A8CAF;
         background-color: #fff;
+    }
+    .socialLinks{
+      
+       
+             justify-content: space-evenly;
+            width: 90%;
+            display: flex;
+            
+            text-align: center;
+            
     }
 }
 /* Media query for tablet view (min-width: 768px) and (max-width: 1023px) */
