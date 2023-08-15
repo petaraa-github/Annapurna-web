@@ -50,7 +50,8 @@ width: 45%;
 .Banner{
   overflow: hidden;
 }
-@media screen and (max-width: 991px) {
+/* Media query for tablet view (min-width: 768px) and (max-width: 1023px) */
+@media (min-width: 768px) and (max-width: 1024px){
   .homeCol1{
 width: 100%;
 display: none;
@@ -79,7 +80,8 @@ width: 100%;
   }
 }
 
-@media only screen and (max-width: 480px){
+/* Media query for phone view (max-width: 767px) */
+@media (max-width: 767px){
   .BTagline{
     display: none;
   }
@@ -119,9 +121,11 @@ width: 100%;
 }
 .Banner{
   width: 100%;
+  overflow: visible;
 }
 .BannerImg{
   // width: 0%;
+  object-fit: cover;
   height: 350px;
 }
 }

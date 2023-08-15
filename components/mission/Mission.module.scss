@@ -25,7 +25,8 @@
 .Stitle2{
     display: none;
 }
-@media screen and (max-width: 991px){
+/* Media query for tablet view (min-width: 768px) and (max-width: 1023px) */
+@media (min-width: 768px) and (max-width: 1024px){
     .OurMission{
         flex-direction: column;
     }
@@ -40,7 +41,8 @@
         margin: auto;
     }
 }
-@media only screen and (max-width: 480px){
+/* Media query for phone view (max-width: 767px) */
+@media (max-width: 767px){
     .Mission{
         width: 100%;
 
