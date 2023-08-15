@@ -43,7 +43,8 @@
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
 }
-@media only screen and (max-width: 480px){
+/* Media query for phone view (max-width: 767px) */
+@media (max-width: 767px) {
   .Navbar{
     
     text-align: center;
@@ -69,4 +70,36 @@
   .nav_links{
     font-size: 14px;
   }
+}
+/* Media query for tablet view (min-width: 768px) and (max-width: 1023px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Navbar {
+  
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    .NavbarLogo {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .Logo {
+      // width: 100%;
+      height: 90px;
+    }
+  
+    .Navbar_list {
+      display: none;
+      width: 90%;
+    }
+  
+    // .list{
+    //   display: none;
+    // }
+    .nav_links {
+      font-size: 14px;
+    }
 }

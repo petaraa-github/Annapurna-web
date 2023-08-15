@@ -13,7 +13,7 @@ export default function HomePage() {
     <>
       <div className={styles.HomeBg}>
         <div className={styles.homeCol1}>
-          <Image className={styles.FoodImg} src={FoodImg} alt="Image1" width={300} />
+          <Image className={styles.FoodImg} src={FoodImg} alt="Image1" width={500} height={500} />
         </div>
         <div className={styles.homeCol2}>
           <div className={styles.Tagline}>

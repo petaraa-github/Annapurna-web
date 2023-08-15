@@ -27,23 +27,16 @@
     border-top: 1px solid black;
     
 } 
-.col{
-    // text-align: center;
-    margin-top: 25px;
-    align-self: center;
-    // align-items: center;
-}
-.footer_title{
-    // text-align: left;
-}
-.footer_list{
-   text-align: center;
-    list-style: none;
+.petaraa{
+object-fit: cover;
+
 }
 .li{
     // padding: 7px;
     font-family: 'Overpass', sans-serif;
     font-size: 18px;
+    // width: 50%;
+    text-align: left;
 }
 .footer_title{
 margin-top: 30px;
@@ -115,7 +108,10 @@ font-family: 'Lora', serif;
   }
   .col{
     width: 20%;
-    text-align: center;
+    margin-top: 25px;
+    align-self: center;
+
+    // text-align: center;
   }
 @media screen and (max-width: 991px){
     .row{

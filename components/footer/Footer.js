@@ -21,8 +21,8 @@ export default function Footer() {
                 className={styles.petaraa}
                 src={Logo}
                 alt="petaraa annapurna"
-                height={80}
-                width={400}
+                
+               width={300}
               />
             </Link>
           </div>
@@ -30,10 +30,10 @@ export default function Footer() {
           {/* column 2 */}
           <div className={styles.col}>
             <h4 className={styles.footer_title}>Contact us</h4>
-            <ul className={styles.footer_list}>
-              <li className={styles.li}>Email: abc@gmail.com</li>
-              <li className={styles.li}>Conatct no.: 8797879686</li>
-            </ul>
+            <div className={styles.footer_list}>
+              <div className={styles.li}>Email: abc@gmail.com</div>
+              <div className={styles.li}>Conatct no.: 8797879686</div>
+            </div>
           </div>
 
           {/* column 3 */}
